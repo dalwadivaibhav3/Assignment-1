@@ -1,0 +1,158 @@
+.div {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.div-2 {
+    background-color: #000;
+    z-index: 10;
+    display: flex;
+    /* width: 100%; */
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    color: #fff;
+    padding: 21px 25px;
+}
+
+@media (max-width: 991px) {
+    .div-2 {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding-right: 20px;
+    }
+}
+
+.div-3 {
+    flex-grow: 1;
+    flex-basis: auto;
+    font: 32px Inter, sans-serif;
+}
+
+.div-4>a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.div-4 {
+    display: flex;
+    margin-top: 6px;
+    align-items: start;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+@media (max-width: 991px) {
+    .div-4 {
+        white-space: initial;
+    }
+}
+
+.div-5 {
+    font-family: Inter, sans-serif;
+    flex-grow: 1;
+}
+
+.div-6 {
+    font-family: Inter, sans-serif;
+}
+
+.div-7 {
+    font-family: Inter, sans-serif;
+}
+
+.div-8 {
+    font-family: Inter, sans-serif;
+    align-self: stretch;
+}
+
+.img {
+    aspect-ratio: 0.93;
+    object-fit: auto;
+    object-position: center;
+    width: 25px;
+    stroke-width: 1px;
+    stroke: #fff;
+    align-self: stretch;
+}
+
+.div-9 {
+    disply: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 949px;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    color: #000;
+    padding: 50px 60px;
+}
+
+@media (max-width: 991px) {
+    .div-9 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.img-2 {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.div-10 {
+    position: relative;
+    display: flex;
+    width: 587px;
+    max-width: 100%;
+    flex-direction: column;
+    margin: 215px 0 189px 60px;
+}
+
+@media (max-width: 991px) {
+    .div-10 {
+        margin: 40px 0;
+    }
+}
+
+.div-11 {
+    font: 96px Kanit, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div-11 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+}
+
+.div-12 {
+    border: 3px solid #000;
+    background-color: #bf83ff;
+    margin-top: 88px;
+    width: 354px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 36px 60px;
+    font: 16px Inter, sans-serif;
+}
+
+@media (max-width: 991px) {
+    .div-12 {
+        white-space: initial;
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
